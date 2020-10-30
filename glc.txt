@@ -1,0 +1,10 @@
+S,A,B,C
+a,b
+S
+AB,Ɛ
+A
+BS,C
+B
+SA,a
+C
+b
