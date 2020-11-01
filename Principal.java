@@ -15,7 +15,7 @@ public class Principal {
 
     private GLC[] N2;
 
-    private String[] posibles = {"â", "ä","å","æ","ç","é","ë","Ħ","Ţ","Ŧ","Ơ","Ƥ","Ƨ","Ʃ","Ʈ","Ʒ","ƽ","ƽ","Ǯ","Ǵ","Ǹ"};
+    private String[] posibles = {"â", "ä","å","æ","ç","é","ë","Ħ","Ţ","Ŧ","Ơ","Ƥ","Ƨ","Ʃ","Ʈ","Ʒ","ƽ","ƽ","Ǯ","Ǵ","Ǹ","À","È","Ë","Ö","Ô","Ð","Ý","Ď","Ħ","Ĥ","Ğ","Ł","Ň","Ŕ","Ő","Ř","Ŕ","Ş","Š"};
     private int posiblesPos = 0;
     private int cantidadAnterior = 0;
     private boolean yaTieneCantidadAnterior = false;
@@ -1007,7 +1007,7 @@ public class Principal {
     public void pila(){
         System.out.println();
         System.out.println("-----Automata de pila-------");
-        System.out.println("De q0 a q1:\n Ɛ,⊥/ ⊥");
+        System.out.println("De q0 a q1:\n Ɛ,⊥/ S⊥");
         System.out.println("De q1 a q1:");
         for(int i=0;i<N1.length;i++){
             for(int j=0;j<N1[i].generados.length;j++){
